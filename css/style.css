@@ -1,0 +1,128 @@
+body{
+
+    text-align: center;
+}
+
+.maptitle{
+    text-align: center;
+    font-size: 30px;
+    background-color: #4292c6;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    
+        
+}
+
+.overviewbottom{
+  float: right;
+  width: 45%;
+  padding: 10px;
+  height: 200px;
+  font-size: 27px;
+  word-wrap: break-word;
+  text-align: left;
+
+}
+
+.overviewLeft{
+  float: left;
+  width: 45%;
+  padding: 15px;
+    padding-left: 3%;
+  height: 200px;
+  font-size: 27px;
+  word-wrap: break-word;
+ text-align: left;
+  
+}
+
+
+.chartTitle{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.map {
+    border: medium solid #999;
+}
+
+.countyLine{
+    stroke: white;
+    stroke-width: 3px;
+}
+.stateLine {
+    fill: #FFF;
+    stroke: #CCC;
+    stroke-width: 2px;
+}
+
+.chartBackground {
+    fill: rgba(128,128,128,.2);
+
+}
+
+.chartFrame {
+    fill: none;
+    stroke: #999;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+/*.numbers {
+	fill: white;
+	font-family: sans-serif;
+}*/
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    fill: #999;
+}
+
+.dropdown {
+    position: absolute;
+    top: 420px;
+    left: 90px;
+    z-index: 10;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid blue;
+    box-shadow: 3px 3px 5px blue;
+}
+
+option {
+    font-weight: normal;
+}
+
+.infolabel {
+    position: absolute;
+    height: 50px;
+    min-width: 100px;
+    color: #fff;
+    background-color: #000;
+    border: solid thin #fff;
+    padding: 5px 10px;
+    top: -75px;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
